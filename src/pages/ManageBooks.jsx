@@ -89,7 +89,7 @@ const ManageBooks = () => {
                 <TableCell>Author</TableCell>
                 <TableCell>Description</TableCell>
                 <TableCell>Availability</TableCell>
-                <TableCell align="center">Actions</TableCell>
+                <TableCell>Actions</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -102,7 +102,7 @@ const ManageBooks = () => {
                     <TableCell>
                       {book.available ? "Available" : "Not Available"}
                     </TableCell>
-                    <TableCell align="center">
+                    <TableCell>
                       <Button
                         variant="contained"
                         sx={{ mr: "5px" }}
